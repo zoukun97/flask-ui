@@ -14,3 +14,8 @@ export type RegisterResponse = {
   id: number,
   username: string,
 }
+
+export type loginResponse = {
+  result: boolean,
+  message: string,
+}
